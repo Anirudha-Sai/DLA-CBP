@@ -1,6 +1,6 @@
 In one terminal:
 python -m venv .venv 
-.\.venv\Scripts\Activate.ps1 
+.\.venv\Scripts\activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 uvicorn main:app --reload 
